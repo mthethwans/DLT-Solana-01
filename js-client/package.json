@@ -1,0 +1,25 @@
+{
+  "name": "solana-prog-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/buffer-layout": "^3.0.0",
+    "@solana/web3.js": "^1.41.4",
+    "borsh": "^0.7.0",
+    "mz": "^2.7.0",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
+}
