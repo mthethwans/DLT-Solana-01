@@ -8,7 +8,7 @@ It is assumed that nodejs is already installed.
 
                                                               OR
 
-Install dependencies using npm
+Install dependencies one by one:
 1. npm install --save @solana/web3.js
 2. npm install @solana/buffer-layout@3.0.0
 3. npm i --save borsh
