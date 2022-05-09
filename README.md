@@ -1,2 +1,3 @@
-# DLT-Solana-01
-DLT Team Solana-01
+# JS- Client Setup
+## Install Depedencies
+
