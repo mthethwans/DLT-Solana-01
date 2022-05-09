@@ -5,7 +5,9 @@ It is assumed that nodejs is already installed.
 1. Download/Clone repository to your home directory: **git clone https://github.com/mthethwans/DLT-Solana-01.git**
 3. Navigate to js-client directory: **cd js-client**
 4. Run **npm install**
+
                                                               OR
+
 Install dependencies using npm
 1. npm install --save @solana/web3.js
 2. npm install @solana/buffer-layout@3.0.0
