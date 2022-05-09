@@ -26,16 +26,11 @@ let programId;
  */
 let greetedPubkey;
 
-// DTL Team: Replace PROGRAM_PATH with your own this is a location where the build program is located.
-const PROGRAM_PATH = '/home/nsmtetwa/solana-prog/target/deploy';
+const PROGRAM_PATH = path.resolve(os.homedir(), 'DLT-Solana-01', 'solana-program', 'target', 'deploy');
 
+const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'solana_program.so');
 
-//DLT Team: Replace 'solana_prog.so' with your own buid name
-const PROGRAM_SO_PATH = path.join(PROGRAM_PATH, 'solana_prog.so');
-
-
-const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana_prog-keypair.json');
-
+const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'solana_program-keypair.json');
 
 async function getConfig(){
     // Path to Solana CLI config file
