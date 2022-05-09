@@ -1,11 +1,11 @@
 # JS-Client Setup
 ## Install Depedencies
-Downlod the repository and It is Assumed that nodejs is installed
-1. Navigate to js-client directory: **cd js-client**
-2. Run **npm install**
+It is assumed that nodejs is already installed.
 
-                               OR
-
+1. Download/Clone repository to your home directory: **git clone https://github.com/mthethwans/DLT-Solana-01.git**
+3. Navigate to js-client directory: **cd js-client**
+4. Run **npm install**
+                                                              OR
 Install dependencies using npm
 1. npm install --save @solana/web3.js
 2. npm install @solana/buffer-layout@3.0.0
@@ -33,8 +33,9 @@ Solana maintains several different clusters with different purposes. We will be 
 
 # Deploy the Solana Program
 1. Use the command **solana program deploy ~/DLT-Solana-01/solana-program/target/deploy/solana_program.so**
+2. In case there is no enough funds to deploy the program, airdrop some amount of SOL on the account using the public key: 
+3. **solana airdrop [amount-in-sol] [public-key] --url localhost**
 
-# Update JS-client Program Paths
-1. 
-
-
+# Run the Client
+1. **cd js-client**
+2. Run: **npm start** 
